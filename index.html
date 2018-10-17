@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <header class="header clearfix">
+      <a href="#" class="header-logo">ennio/caprio</a>
+      <div class="header-icon-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="header-list">
+        <li class="header-list-item"><a href="index.html">Home</a></li>
+        <li class="header-list-item"><a href="index.html#about-id">About</a></li>
+        <li class="header-list-item"><a href="index.html#portfolio-id">Portfolio</a></li>
+        <li class="header-list-item"><a href="index.html#contacts-id">Contacts</a></li>
+      </ul>
+    </header>
+    <section class="cover">
+      <div class="cover-filter"></div>
+      <div class="cover-caption">
+          <div class="cover-caption-copy">
+            <h1 class="anim">Front-End Developer/UI designer</h1>
+            <h2 class="anim">I create modern responsive websites and UI designs</h2>
+            <a href="index.html#contacts-id" class="button1 anim">Contact Me For Details!</a>
+          </div>
+      </div>
+    </section>
+    <section class="about" id="about-id"><a name="about-id"></a>
+      <div class="Initial anim2">
+      <h2>About</h2>
+      </div>
+      <div class="about-main anim2">
+        <div class="about-info">
+          <h4 class="anim2">Hi, my name is Ennio Caprio</h4>
+          <p class="anim2">I'm a Front-End Developer living in Naples.</br>I like to create projects using html, css and javascript, and currently I'm learning Java for develop apps</p>
+        </div>
+        <div class="about-photo">
+        </div>
+        <div class="about-skills anim2">
+            <h4>Skills</h4>
+            <div class="about-skills-1">
+              <p>HTML-85%</p>
+              <div class="w3-border">
+                <div class="w3-blue" style="height:10px;width:85%"></div>
+              </div>
+            </div>
+            <div class="about-skills-2">
+              <p>CSS-80%</p>
+              <div class="w3-border">
+                <div class="w3-blue" style="height:10px;width:80%"></div>
+              </div>
+            </div>
+            <div class="about-skills-3">
+              <p>JS/JQUERY-60%</p>
+              <div class="w3-border">
+                <div class="w3-blue" style="height:10px;width:60%"></div>
+              </div>
+            </div>
+            <div class="about-skills-4">
+              <p>PHP-30%</p>
+              <div class="w3-border">
+                <div class="w3-blue" style="height:10px;width:30%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio-id"><a name="portfolio-id"></a>
+      <div class="Initial anim2">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="cards anim2">
+      <div class="portfolio-cards-apps">
+        <img src="https://source.unsplash.com/category/people/400x260" alt="" class="image">
+        <div class="overlay overlayBottom">
+          <a href="app.html" class="text" id="card">UI Design</a>
+        </div>
+      </div>
+      <div class="portfolio-cards-apps">
+        <img src="https://source.unsplash.com/category/people/400x260" alt="" class="image">
+        <div class="overlay overlayBottom">
+        <a href="app2.html" class="text" id="card">Weight Converter App</a>
+        </div>
+      </div>
+      <div class="portfolio-cards-apps">
+        <img src="https://source.unsplash.com/category/people/400x260" alt="" class="image">
+        <div class="overlay overlayBottom">
+          <a href="app3.html" class="text" id="card">E-commerce site</a>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacs-id"><a name="contacts-id"></a>
+      <div class="Initial anim2">
+        <img src="download.png" width="100px" height="150px;" alt="">
+        <h2>Contacts</h2>
+      </div>
+      <form class="content-form anim2" action="index.php" method="post">
+        <div class="name">
+          <input type="text" name="name" placeholder="Full name" id="Name" required>
+        </div>
+        <div class="mail">
+          <input type="text" name="mail" placeholder="E-mail" id="Mail" required>
+        </div>
+        <div class="text-area">
+        <textarea name="message" placeholder="Message" id="TextArea" required></textarea>
+        </div>
+        <button type="submit" name="submit" class="Button">Submit</button>
+      </form>
+    </section>
+    <footer>
+    <p>&copy;Ennio Caprio, designed and developed by Ennio Caprio</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.2/dist/scrollreveal.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="button.js"></script>
+    <script type="text/javascript" src="animation.js">
+    </script>
+  </body>
+</html>
